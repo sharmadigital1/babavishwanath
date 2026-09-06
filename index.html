@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baba Vishwanath Food Udhyog | Aawa Road, Siddharthanagar, Lumbini Province 32900, Nepal</title>
+<meta name="description" content="Baba Vishwanath Food Udhyog, Aawa Road, Siddharthanagar, Lumbini Province 32900, Nepal. Traditional sweets and quality food products.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --red:#9d1018; --deep:#43070a; --gold:#d9a441; --cream:#fff8ed;
+  --ink:#2d1712; --muted:#755f56; --white:#fff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Poppins,sans-serif;background:var(--cream);color:var(--ink);overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+header{position:fixed;top:0;width:100%;z-index:20;padding:14px 5%;transition:.35s}
+header.scrolled{background:rgba(67,7,10,.94);backdrop-filter:blur(15px);box-shadow:0 8px 30px #0003}
+.nav{max-width:1250px;margin:auto;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:11px;color:#fff}
+.brand img{width:54px;height:54px;border-radius:50%;background:#fff;padding:2px;object-fit:cover}
+.brand b{font-size:15px;line-height:1.1}
+.brand span{display:block;color:#f3cf7b;font-size:9px;letter-spacing:2px;margin-top:3px}
+nav{display:flex;gap:28px;color:#fff;font-size:14px;font-weight:500}
+nav a:hover{color:#f4cf75}
+.hero{min-height:100vh;padding:145px 7% 90px;position:relative;display:flex;align-items:center;overflow:hidden;background:
+radial-gradient(circle at 80% 30%,#d9a44133,transparent 28%),
+linear-gradient(135deg,#53080d,#1d0305)}
+.hero:after{content:"";position:absolute;width:600px;height:600px;border:1px solid #e4b95c33;border-radius:50%;right:-180px;top:120px;box-shadow:0 0 0 70px #e4b95c0d,0 0 0 140px #e4b95c08}
+.hero-content{max-width:700px;color:white;position:relative;z-index:2}
+.kicker{display:inline-block;border:1px solid #f0cf7c66;border-radius:99px;padding:8px 16px;color:#f4d27c;font-size:12px;letter-spacing:2px;margin-bottom:22px}
+h1,h2,h3{font-family:"Cormorant Garamond",serif}
+h1{font-size:clamp(50px,7vw,88px);line-height:.95;margin-bottom:24px}
+h1 em{color:#f3cc6e;font-style:normal}
+.hero p{max-width:610px;color:#ead6cf;line-height:1.85;font-size:16px;margin-bottom:30px}
+.actions{display:flex;gap:13px;flex-wrap:wrap}
+.btn{padding:13px 23px;border-radius:99px;font-weight:700;font-size:14px;display:inline-block;transition:.3s}
+.primary{background:linear-gradient(135deg,#f6d27a,#c88b20);color:#3b0907;box-shadow:0 12px 30px #0004}
+.secondary{border:1px solid #ffffff55;color:#fff;background:#ffffff0d}
+.btn:hover{transform:translateY(-3px)}
+.hero-logo{position:absolute;right:8%;z-index:2;width:min(390px,35vw);filter:drop-shadow(0 25px 35px #0008);animation:levitate 5s ease-in-out infinite}
+@keyframes levitate{50%{transform:translateY(-15px) rotate(2deg)}}
+.section{padding:95px 6%}
+.heading{text-align:center;max-width:720px;margin:0 auto 48px}
+.eyebrow{color:var(--red);font-weight:700;font-size:12px;letter-spacing:3px;text-transform:uppercase}
+.heading h2{font-size:52px;margin:8px 0}
+.heading p{color:var(--muted);line-height:1.8}
+.products{background:#fffdf9}
+.grid{max-width:1200px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.card{background:#fff;border:1px solid #eadfd2;border-radius:24px;padding:12px;box-shadow:0 15px 45px #5a1b1012;transition:.4s;transform-style:preserve-3d}
+.card:hover{transform:translateY(-10px) rotateX(2deg) rotateY(-2deg);box-shadow:0 25px 60px #5a1b1028}
+.photo{height:300px;border-radius:18px;overflow:hidden;background:#f3e4cf;position:relative}
+.photo img{width:100%;height:100%;object-fit:cover;transition:.6s}
+.card:hover .photo img{transform:scale(1.07)}
+.card-body{padding:17px 8px 8px}
+.card h3{font-size:27px;margin-bottom:5px}
+.card p{font-size:12px;color:var(--muted);line-height:1.6;min-height:40px}
+.order{margin-top:13px;color:var(--red);font-size:13px;font-weight:700}
+.about{background:#f1e2cf}
+.about-wrap{max-width:1150px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:center}
+.about-logo{background:#fff;border-radius:32px;padding:30px;display:flex;align-items:center;justify-content:center;min-height:440px;box-shadow:25px 30px 70px #53130f18;transform:perspective(1000px) rotateY(6deg)}
+.about-logo img{width:80%;max-width:370px}
+.about-copy .eyebrow{display:block;margin-bottom:8px}
+.about-copy h2{font-size:54px;line-height:1}
+.about-copy p{color:var(--muted);line-height:1.85;margin:18px 0}
+.features{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}
+.feature{background:#ffffff88;padding:15px;border-radius:15px}
+.feature b{display:block;font-size:13px}
+.feature small{color:var(--muted)}
+.stats{background:var(--deep);color:white;padding:55px 6%}
+.stats-grid{max-width:1000px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);text-align:center}
+.stat strong{font-size:40px;color:#f2ce74}
+.stat span{display:block;color:#d7bfb6;font-size:12px}
+.contact{background:#fff8ed}
+.contact-grid{max-width:1050px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.box{padding:35px;border-radius:25px;background:#fff;box-shadow:0 15px 50px #5a1b1012}
+.box h3{font-size:34px;margin-bottom:15px}
+.info{padding:14px 0;border-bottom:1px solid #eee0d2}
+.info:last-child{border:0}
+.info b{display:block;font-size:13px}.info span{color:var(--muted);font-size:13px}
+.cta{background:linear-gradient(145deg,#5b090e,#250306);color:white}
+.cta p{color:#dec9c1;line-height:1.8;margin-bottom:23px;font-size:14px}
+footer{background:#180204;color:#cdbab3;text-align:center;padding:27px;font-size:12px}
+footer strong{color:#f1cb70}
+@media(max-width:1000px){.grid{grid-template-columns:repeat(2,1fr)}.hero-logo{opacity:.2;width:430px;right:-80px}.about-wrap{grid-template-columns:1fr}.about-logo{min-height:330px}.contact-grid{grid-template-columns:1fr}}
+@media(max-width:650px){nav{display:none}.hero{padding:125px 6% 80px}.hero-logo{display:none}.section{padding:75px 5%}.grid{grid-template-columns:1fr}.photo{height:340px}.heading h2,.about-copy h2{font-size:42px}.stats-grid{grid-template-columns:1fr 1fr;gap:25px}.brand img{width:48px;height:48px}.features{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header id="header">
+<div class="nav">
+<a class="brand" href="#home">
+<img src="logo.png" alt="Baba Vishwanath Food Udhyog logo">
+<div><b>BABA VISHWANATH</b><span>FOOD UDHYOG • RUPANDEHI</span></div>
+</a>
+<nav>
+<a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-content">
+<div class="kicker">TRADITION • QUALITY • TASTE</div>
+<h1>Pure Taste.<br><em>Traditional</em> Heart.</h1>
+<p>Welcome to Baba Vishwanath Food Udhyog, Aawa Road, Siddharthanagar, Lumbini Province 32900, Nepal. We prepare and package traditional sweets and food products with care, quality and an authentic taste.</p>
+<div class="actions">
+<a class="btn primary" href="#products">Explore Products</a>
+<a class="btn secondary" href="#contact">Contact Us</a>
+</div>
+</div>
+<img class="hero-logo" src="logo.png" alt="Baba Vishwanath Food Udhyog">
+</section>
+
+<section class="section products" id="products">
+<div class="heading">
+<div class="eyebrow">Our Products</div>
+<h2>Made to Be Remembered</h2>
+<p>These are your actual product photographs. Each card has a subtle 3D interaction for a premium presentation.</p>
+</div>
+<div class="grid">
+
+<article class="card">
+<div class="photo"><img src="badam-barfi.png" alt="Badam Barfi"></div>
+<div class="card-body"><h3>Badam Barfi</h3><p>Rich traditional sweet prepared and packed by Baba Vishwanath Food Udhyog.</p><a class="order" href="#contact">Enquire / Order →</a></div>
+</article>
+
+<article class="card">
+<div class="photo"><img src="khaja-biscuit.jpeg" alt="Khaja Biscuit"></div>
+<div class="card-body"><h3>Khaja Biscuit</h3><p>Crunchy traditional Khaja / Khajuri-style mithai, packed for freshness.</p><a class="order" href="#contact">Enquire / Order →</a></div>
+</article>
+
+<article class="card">
+<div class="photo"><img src="barfi-white.jpeg" alt="Barfi"></div>
+<div class="card-body"><h3>Barfi</h3><p>Soft, sweet and beautifully packed traditional barfi.</p><a class="order" href="#contact">Enquire / Order →</a></div>
+</article>
+
+<article class="card">
+<div class="photo"><img src="barfi-brown.jpeg" alt="Brown Barfi"></div>
+<div class="card-body"><h3>Brown Barfi</h3><p>A delicious traditional sweet with a rich brown finish.</p><a class="order" href="#contact">Enquire / Order →</a></div>
+</article>
+
+<article class="card">
+<div class="photo"><img src="soan-papdi.jpeg" alt="Soan Papdi"></div>
+<div class="card-body"><h3>Soan Papdi</h3><p>Light, delicate and traditional Soan Papdi with a melt-in-the-mouth texture.</p><a class="order" href="#contact">Enquire / Order →</a></div>
+</article>
+
+</div>
+</section>
+
+<section class="section about" id="about">
+<div class="about-wrap">
+<div class="about-logo"><img src="logo.png" alt="Baba Vishwanath Food Udhyog logo"></div>
+<div class="about-copy">
+<div class="eyebrow">About Baba Vishwanath</div>
+<h2>From Our Udhyog to Your Family</h2>
+<p>Baba Vishwanath Food Udhyog is a Rupandehi-based food producer focused on traditional sweets and packaged food products.</p>
+<p>Our presentation is built around three promises: good ingredients, careful preparation and a taste customers can trust.</p>
+<div class="features">
+<div class="feature"><b>✓ Quality</b><small>Carefully prepared products</small></div>
+<div class="feature"><b>✓ Hygiene</b><small>Clean production & packing</small></div>
+<div class="feature"><b>✓ Tradition</b><small>Authentic local taste</small></div>
+<div class="feature"><b>✓ Trust</b><small>Customer-first service</small></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="stats">
+<div class="stats-grid">
+<div class="stat"><strong>5+</strong><span>Featured Products</span></div>
+<div class="stat"><strong>100%</strong><span>Quality Focus</span></div>
+<div class="stat"><strong>1</strong><span>Rupandehi Home</span></div>
+<div class="stat"><strong>∞</strong><span>Love for Taste</span></div>
+</div>
+</section>
+
+<section class="section contact" id="contact">
+<div class="heading">
+<div class="eyebrow">Get In Touch</div>
+<h2>Order & Enquiries</h2>
+<p>Replace the placeholder phone, email and address below with your real business details.</p>
+</div>
+<div class="contact-grid">
+<div class="box">
+<h3>Contact Information</h3>
+<div class="info"><b>📍 Address</b><span>Aawa Road, Siddharthanagar, Lumbini Province 32900, Nepal</span></div>
+<div class="info"><b>📞 Phone</b><span>+977 9817508541</span></div>
+<div class="info"><b>✉️ Email</b><span>your-email@example.com</span></div>
+<div class="info"><b>🕐 Business Hours</b><span>Sunday – Saturday | 8:00 AM – 8:00 PM</span></div>
+</div>
+<div class="box cta">
+<h3>Want to Order?</h3>
+<p>For retail, wholesale or distributor enquiries, contact Baba Vishwanath Food Udhyog directly.</p>
+<a class="btn primary" href="https://wa.me/9779817508541" target="_blank" rel="noopener">💬 WhatsApp Us</a>
+</div>
+</div>
+</section>
+
+<footer>© 2026 <strong>Baba Vishwanath Food Udhyog</strong> • Aawa Road, Siddharthanagar, Lumbini Province 32900, Nepal • All Rights Reserved.</footer>
+
+<script>
+window.addEventListener("scroll",()=>{
+ document.getElementById("header").classList.toggle("scrolled",window.scrollY>40);
+});
+document.querySelectorAll(".card").forEach(card=>{
+ card.addEventListener("mousemove",e=>{
+   const r=card.getBoundingClientRect(), x=e.clientX-r.left, y=e.clientY-r.top;
+   const rx=(y-r.height/2)/25, ry=(r.width/2-x)/25;
+   card.style.transform=`translateY(-10px) rotateX(${rx}deg) rotateY(${ry}deg)`;
+ });
+ card.addEventListener("mouseleave",()=>card.style.transform="");
+});
+</script>
+</body>
+</html>
